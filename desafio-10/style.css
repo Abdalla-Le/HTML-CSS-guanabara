@@ -1,0 +1,154 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family: "droid" ;
+    src: url(fontes/idroid.otf);   
+}
+
+
+body { 
+    background-color: rgb(199, 205, 164);
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Coloca os elementos filhos em uma coluna */
+    
+    
+}
+
+
+header {
+    background-color: green;
+    color: aliceblue;
+    width: 100%;
+    
+ }
+
+
+main { 
+    background-color: aliceblue;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius:  0 0  10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.301);
+}
+
+footer{
+    color: aliceblue;
+    background-color: green;
+    width: 100%;
+}
+#p-footer{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul {
+    list-style: none;
+    
+  }
+
+li::before {
+    content: "✔ ";
+    color: green; /* opcional: adicione cor ao ✔ */
+}
+
+.inicial{
+    display: flex;
+    
+}
+nav h2 {
+    margin-bottom: 10px; /* Adicione margem na parte inferior de cada h2 */
+    padding-left: 10px;
+}
+
+.titulo-header{
+    text-align: center;
+}
+.subtitulo-header{
+    text-align: center;
+}
+.titulo {
+    color: rgb(32, 96, 9);
+
+    font-family: "droid";
+    text-align: center;
+}
+
+
+.subtitulo {
+    color: rgb(53, 78, 12);
+    font-family: "droid";
+    background-color: aquamarine;
+    background: linear-gradient(to right,aquamarine, aliceblue);
+}
+
+.sub-subtitulo{
+    color: white;
+    background-color: green;
+
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a::after {
+    content: "\1F517"; /* Emoji de um elo de corrente */
+}
+
+a:hover {
+    background-color: #e0e0e0; /* Cor de fundo quando o mouse está sobre o link */
+}
+.link-footer:hover {
+    background-color: rgba(1, 45, 1, 0.427); /* Cor de fundo quando o mouse está sobre o link */
+}
+.links{
+    color: green;
+    
+}
+
+.link-footer{
+    color: aliceblue;
+}
+
+strong{
+    color: green;
+}
+
+.alinhado{
+    text-decoration: underline dotted green;
+}
+
+#div1, .div2 {
+    width: 50%; /* Cada div ocupa metade da largura */
+    float: left;
+}
+
+.quadrado{
+    background-color: rgb(125, 246, 133);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.video{
+    
+    width: 100%;
+    max-width: 560px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+
+}
+
+.div-video{
+    background-color: green;
+}
+
